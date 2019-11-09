@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   lowest_count = counts.first
   
   name_hash.each do |name, count|
-    if count < lowest_count
+    if lowest_count < count
       lowest_count = count
       key = name
     end
