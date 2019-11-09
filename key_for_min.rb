@@ -1,3 +1,5 @@
+require 'pry'
+
 def key_for_min_value(name_hash)
   key = nil
   counts = name_hash.collect { |name, count| count }
