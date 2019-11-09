@@ -5,6 +5,10 @@ require 'pry'
 def key_for_min_value(name_hash)
   counts = name_hash.collect { |name, count| count }
   lowest_count = counts.first
-  
+  counts.each do |count|
+    if count < lowest_count
+      lowest_count = count
+    end
+  end  
   binding.pry
 end
