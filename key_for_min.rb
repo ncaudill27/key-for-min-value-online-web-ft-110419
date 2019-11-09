@@ -3,8 +3,6 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  
-  values = name_hash.collect { |name, value| value }
-  min_val = values.reduce { |value| values.first > value ? value : value.first }
-  binding.pry
+  p name_hash
+ 
 end
