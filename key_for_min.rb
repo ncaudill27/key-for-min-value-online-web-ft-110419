@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
   
   values = name_hash.collect { |name, value| value }
   lowest_value = value.first
-  lowest_value
-  binding.pry
+  p lowest_value
+  
 end
