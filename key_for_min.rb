@@ -3,7 +3,7 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  values = name_hash.collect { |name, value| value }
-  values.first < values.each ? values.first : nil
+  counts = name_hash.collect { |name, count| count }
+  counts.first < counts.each ? counts.first : nil
   binding.pry
 end
