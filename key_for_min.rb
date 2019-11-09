@@ -10,8 +10,9 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, count|
     if count < lowest_count
       lowest_count = count
+      key = name
     end
-    key = name
+    
     binding.pry
   end
   
