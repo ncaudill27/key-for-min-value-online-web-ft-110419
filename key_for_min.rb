@@ -12,9 +12,7 @@ def key_for_min_value(name_hash)
       lowest_count = count
       key = name
     end
-    
-    binding.pry
   end
-  
+  binding.pry
 key
 end
